@@ -8,4 +8,4 @@ Run the `./build.sh` script. Make sure you have `checkinstall` installed first!
 
 ## Build on Github Actions
 
-Coming soon!
+Update the `Makefile` and `build.sh` files to the new version of Arctype, commit that, then tag with `v${new_arctype_version}` and push the tag and it should build the debian for you.
