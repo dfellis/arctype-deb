@@ -18,6 +18,7 @@ jobs:
       run: |
         sudo apt install checkinstall -y
         arctypeversion=$(echo ${{github.ref}} | sed "s/refs\/tags\/v//")
+        ./build.sh
         cp ./arctype_${arctypeversion}-1_amd64.deb /tmp/arctype_amd64.deb
 
     - name: Upload Arctype Debian package

@@ -2,6 +2,8 @@
 
 Simple repo to package up Arctype into a .deb for easier installation/upgrading
 
+## Current Version Packaged: 0.9.45
+
 ## Build locally
 
 Run the `./build.sh` script. Make sure you have `checkinstall` installed first!
