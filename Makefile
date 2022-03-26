@@ -2,7 +2,7 @@ SHELL = /bin/bash
 
 .PHONY: install
 install:
-	curl https://arctype-downloads.s3-us-west-2.amazonaws.com/updates/Arctype-0.9.47.AppImage --output arctype
+	curl https://arctype-downloads.s3-us-west-2.amazonaws.com/updates/Arctype-0.9.48.AppImage --output arctype
 	cp ./arctype /usr/local/bin/arctype
 	groupadd -f arctype
 	chgrp arctype /usr/local/bin/arctype
